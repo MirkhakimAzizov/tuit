@@ -121,6 +121,7 @@ a {
 }
 
 .quiz {
+    font-weight: 600;
     margin-top: 50px;
     font-size: 18px;
     font-family: sans-serif;
@@ -153,8 +154,8 @@ a {
 }
 
 .a:hover span {
-    position: absolute;
-    left: 0px;
+    position: relative;
+    left: -28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -755,4 +756,82 @@ main {
     100% {
         content: "    00:00";
     }
+}
+
+
+/* ---------------------------- animate------------------ */
+
+@keyframes rr {
+    from {
+        background-color: #fff;
+        color: black;
+    }
+    to {
+        background-color: #1D2D5B;
+        color: #fff;
+    }
+}
+
+.item {
+    color: black;
+}
+
+.aa,
+.bb,
+.cc,
+.dd {
+    position: relative;
+    left: -28px;
+    padding: 20px 28px;
+}
+
+.aa {
+    position: relative;
+    left: -28px;
+    padding: 20px 28px;
+}
+
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(11),
+.item:nth-child(12),
+.item:nth-child(15),
+.item:nth-child(19),
+.item:nth-child(20) {
+    animation-name: rr;
+    animation-duration: inherit;
+    animation-delay: 600s;
+    animation-fill-mode: forwards;
+}
+
+.item:nth-child(3),
+.item:nth-child(6),
+.item:nth-child(8),
+.item:nth-child(10),
+.item:nth-child(14),
+.item:nth-child(16) {
+    animation-name: rr;
+    animation-duration: inherit;
+    animation-delay: 1200s;
+    animation-fill-mode: forwards;
+}
+
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(13),
+.item:nth-child(18),
+.item:nth-child(15),
+.item:nth-child(9),
+.item:nth-child(7) {
+    background-color: #1D2D5B;
+    color: #fff;
+}
+
+.item:nth-child(17) {
+    background-color: #1d2d5b77;
+}
+
+.w {
+    position: relative;
+    font-weight: 400;
 }
