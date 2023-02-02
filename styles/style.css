@@ -320,10 +320,10 @@ main {
     left: -80px;
     top: -2px;
     border: 1px solid silver;
-    padding: 3px 25px;
+    padding: 3px 5px;
     border: 2px solid #60a76094;
-    background: #abc7abbe;
-    background: -webkit-linear-gradient(193deg, #8ab48a 0%, #c9edc4 100%);
+    background: #8e9f8ebe;
+    background: -webkit-linear-gradient(193deg, #97b897 0%, #c9edc4 100%);
     background: linear-gradient(193deg, #8ab48a 0%, #c9edc4 100%);
 }
 
